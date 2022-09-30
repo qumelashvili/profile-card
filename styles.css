@@ -1,0 +1,63 @@
+body{
+    background-image: 
+    url(./images/bg-pattern-top.svg),
+    url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 40vh, left 50vw top 50vh;
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card{
+    max-width: 350px;
+    max-height: 374vh;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+.cover-photo{
+    width: calc(100% + 2px);
+}
+.cover{
+    margin-top: -1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+}
+.profile-photo{
+    margin-top: -55px;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+}
+p, h3{
+    margin: 0px;
+}
+.about-info h3, .about-info p{
+    font-size: 18px;
+}
+.about-info p{
+    margin-left: 8.5px;
+}
+h3{
+    font-weight: 700;
+}
+.gray{
+    color: #6B7082;;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #E8E9EC;
+    margin-top: 28px;
+}
+.bold{
+    font-size: 18px;
+    font-weight: 700;
+}
+.details{
+    padding: 24px 5px 27px 5px;
+}
+
